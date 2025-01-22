@@ -529,7 +529,7 @@
         padding-inline-start: 0;
     }
 
-    
+
     .flow-alow li{
         list-style: none;
         color: #000;
@@ -547,6 +547,15 @@
         text-align: center;
         line-height: 80px;
         margin-top: 23px;
+    }
+    .arow{
+        background-image: url(../img/alow.png) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 61px;
+        height: 40px;
+        flex-shrink: 0;
+
     }
 
 }
