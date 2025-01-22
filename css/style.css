@@ -1102,10 +1102,7 @@
         grid-gap: 20px;
     }
 
-    hr{
-    
-      padding-bottom: 48px;
-    }
+  
     .item dt{
         color: #FFF;
         -webkit-text-stroke-width: 0.5;
