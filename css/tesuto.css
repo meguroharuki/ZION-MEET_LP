@@ -81,6 +81,34 @@
         top: 0px;
         right: 24px;
     }
+    .moniter{
+        display: block;
+        object-fit: cover;
+        position: relative;
+        left: 5%;
+    }
+    .moni{
+        width: 202px;
+        height: 122px; 
+    }
+    .pc{
+        position: absolute;
+        top: 90px;
+    }
+    .paso{
+        width: 151px;
+        height: 91px;
+
+    }
+    .sp{
+        position: absolute;
+        top: 60px;
+        left: 35%;
+    }
+    .suma{
+        width: 81px;
+        height: 133px;
+    }
 
 
     .content_1{
@@ -128,6 +156,8 @@
         width: 289px;
         height: 179px;
         flex-shrink: 0;
+        padding-left: 50px;
+        padding-bottom: 86px;
     }
     .cont-img-posi{
         position: absolute;
@@ -139,6 +169,9 @@
         height: 123px;
         flex-shrink: 0;
         border-radius: 24px;
+        position: absolute;
+        top: 120px;
+        left: 210px;
     }
     .cont-arr-right{
         order: 1;
@@ -546,16 +579,77 @@
         margin: 0 auto;
         text-align: center;
         line-height: 80px;
-        margin-top: 23px;
+        margin-top: 16px;
+        margin-bottom: 16px;
     }
     .arow{
         background-image: url(../img/alow.png) ;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top 50%;
         width: 61px;
         height: 40px;
         flex-shrink: 0;
+        margin: 0 auto;
+    }
+    .comment-info{
+        margin-top: 55px;
+        margin-bottom: 155px;
+    }
+    .comment-info p{
+        margin: 0;
+        color: #ff2950;
+        font-size: 14px;
+        
+    }
 
+
+    footer{
+        background-color: #F67B00;
+        margin-bottom: 0;
+    }
+    footer p{
+        color: #FFF;
+        -webkit-text-stroke-width: 1;
+        -webkit-text-stroke-color: #FFF;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-weight: bold;
+        margin: 0;
+        padding: 30px 166px 26.5px 61px;
+    }
+    dl{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .item dt{
+        color: #FFF;
+        -webkit-text-stroke-width: 0.5;
+        -webkit-text-stroke-color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 45px;
+        padding: 41.5px 0 11px 47px;
+        font-weight: bold;
+    }
+    .item dd{
+        font-family: Inter;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 14px;
+    }
+    .item dd a{
+        color: #FFF;
+        list-style: none;
     }
 
 }
