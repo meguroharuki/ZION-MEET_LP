@@ -18,8 +18,8 @@
     margin: 0 auto;
   }
   header{
-      width: 1440px;
-      height: 130px;
+      width: 100%;
+      height: 200px;
   }
   header p{
       font-size: 48px;
@@ -75,10 +75,12 @@
    .kv-back{
       background: linear-gradient(6deg, #FFE985 34.79%, #EE8B00 207.44%);
       width: 1329px;
-      height: 600px;
+      height: 580px;
+      flex-shrink: 0;
       margin-left: 112px;
       position: relative;
    }
+
    .kv-back h1{
       font-size: 55px;
       margin: 0;
@@ -97,12 +99,11 @@
    }
    .kv_img-2{
      position: absolute;
-      width: 424px;
-      height: 505px;
+     width: 404px;
+     height: 480px;
       flex-shrink: 0;
       top: 36px;
-      right: 180px;
-      
+      right: 20%;
    }
    .kv-back img{
       width: 100%;
