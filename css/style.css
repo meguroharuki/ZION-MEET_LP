@@ -6,6 +6,7 @@
   display: none; /* デフォルトで非表示 */
 }
 
+
 .global-navigation.active {
   display: block;
 }
