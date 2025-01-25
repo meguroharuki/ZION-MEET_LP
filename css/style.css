@@ -39,6 +39,7 @@
       padding-right: 70px;
       color: #FFA100;
       list-style: none;
+      font-weight: bold;
   }
    nav{
        margin: 0;
@@ -95,8 +96,8 @@
       padding-left: 60px;
    }
    .kv_img-1{
-      width: 550px;
-      height: 360px;
+      width: 650px;
+      height: 390px;
       flex-shrink: 0;
       padding-left: 204px;
       padding-top: 83px;
@@ -123,7 +124,7 @@
     object-fit: cover;
     position: relative;
     left: 12%;
-    top: 250px;
+    top: 200px;
 }
 .moniter img{
   width: 680px;
@@ -159,6 +160,7 @@
      display: flex;
      justify-content: center;
      padding-top: 50px;
+     margin-top: 80px;
    }
    .content_1 h2{
       color: #f67b00;
@@ -283,19 +285,20 @@
     padding-left: 80px;
    }
    .cont-3-art-flex h2{
-    font-size: 48px;
+    font-size: 68px;
     margin: 0;
    }
+   .cont-3-art-flex p{
+    font-size: 36px;
+    line-height: 150%;
+   }
+   
    .font-orange{
     color: #f67b00;
    }
-   .cont-3-art-flex p{
-    width: 456px;
-    font-size: 24px;
-    line-height: 150%;
-   }
+  
    .title_red{
-    font-size: 24px;
+    font-size: 36px;
     color:#D00F31 ;
     text-align: center;
    }
@@ -305,7 +308,7 @@
     padding-bottom: 150px;
    }
    .sub-title{
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
     text-align: center;
     margin: 0;
@@ -314,45 +317,53 @@
    }
    .cont-4-flex{
     display: flex;
+    justify-content: center;
     gap: 120px;
    }
    .content_4{
-    width: 428px;
-    height: 487px;
+    width: 35%;
+    height: 700px;
     flex-shrink: 0;
-    border-radius: 32px;
+    border-radius: 64px;
     background: linear-gradient(135deg, #EDEDED 100%, #FFF 0%);
     box-shadow: 1px 1px 2px 0px rgba(255, 255, 255, 0.30) inset, -1px -1px 2px 0px rgba(202, 202, 202, 0.50) inset, -12px 12px 24px 0px rgba(202, 202, 202, 0.20), 12px -12px 24px 0px rgba(202, 202, 202, 0.20), -12px -12px 24px 0px rgba(255, 255, 255, 0.90), 12px 12px 30px 0px rgba(202, 202, 202, 0.90);
     
    }
    .content_4 h3{
-    font-size: 26px;
+    font-size: 36px;
     margin-top: 80px;
     text-align: center;
    }
    .content_4 p{
-    font-size: 20px;
-    width: 387px;
+    font-size: 32px;
+    width: 90%;
+    margin: 0 auto;
     color: #000;
     font-family: Inter;
-    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
-    padding-left: 19px;
    }
    .company-logo{
-    width: 212.776px;
-    height: 45px;
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
     flex-shrink: 0;
     padding-left: 107px;
     padding-right: 107px;
     padding-top: 96px;
    }
+
    .money-width{
     padding-left: 219px;
     padding-right: 214px;
     padding-bottom: 60px;
+  }
+   .money-a-b{
+    width: 1350px;
+    height: 700.541px;
+    margin: 0 auto;
+    flex-shrink: 0;
    }
    .plan{
     padding-left:304px;
